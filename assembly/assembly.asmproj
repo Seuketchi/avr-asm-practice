@@ -15,7 +15,7 @@
     <Name>assembly</Name>
     <RootNamespace>assembly</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
-    <EntryFile>$(MSBuildProjectDirectory)\main.asm</EntryFile>
+    <EntryFile>$(MSBuildProjectDirectory)\test projects\ifelse.asm</EntryFile>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
     <CacheFlash>true</CacheFlash>
@@ -79,9 +79,15 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="main.asm">
+    <Compile Include="test projects\ifelse.asm">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="test projects\conditions.asm">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="test projects" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Assembler.targets" />
 </Project>
