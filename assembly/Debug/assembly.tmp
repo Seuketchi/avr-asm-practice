@@ -7,7 +7,7 @@
   <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>C:\Users\jadma\Documents\Atmel Studio\7.0\assembly\assembly\test projects\loop.asm</SOURCE_FILE>
+ <SOURCE_FILE>C:\Users\jadma\Documents\Atmel Studio\7.0\assembly\assembly\test projects\call.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
  </INCLUDED_FILES>
@@ -22,8 +22,7 @@
   <FILE>assembly.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <main><FILE>C:\Users\jadma\Documents\Atmel Studio\7.0\assembly\assembly\test projects\loop.asm</FILE><LINE>7</LINE></main>
-  <loop><FILE>C:\Users\jadma\Documents\Atmel Studio\7.0\assembly\assembly\test projects\loop.asm</FILE><LINE>11</LINE></loop>
-  <end><FILE>C:\Users\jadma\Documents\Atmel Studio\7.0\assembly\assembly\test projects\loop.asm</FILE><LINE>16</LINE></end>
+  <main><FILE>C:\Users\jadma\Documents\Atmel Studio\7.0\assembly\assembly\test projects\call.asm</FILE><LINE>7</LINE></main>
+  <add_numbers><FILE>C:\Users\jadma\Documents\Atmel Studio\7.0\assembly\assembly\test projects\call.asm</FILE><LINE>14</LINE></add_numbers>
  </LABELS>
 </ASSEMBLER_INFO>

@@ -15,7 +15,7 @@
     <Name>assembly</Name>
     <RootNamespace>assembly</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
-    <EntryFile>$(MSBuildProjectDirectory)\test projects\loop.asm</EntryFile>
+    <EntryFile>$(MSBuildProjectDirectory)\test projects\call.asm</EntryFile>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>
     <CacheFlash>true</CacheFlash>
@@ -79,7 +79,7 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="test projects\loop.asm">
+    <Compile Include="test projects\call.asm">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="test projects\conditions.asm">
